@@ -1,0 +1,9 @@
+.modalText {
+    color: black;
+    margin: 50px;
+
+    @media screen and (max-width: 576px) {
+        margin: 20px;
+        font-size: 20px;
+    }
+}

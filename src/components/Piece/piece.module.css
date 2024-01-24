@@ -1,0 +1,33 @@
+.piece {
+    min-width: 80%;
+    min-height: 80%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    transition: min-width 0.7s, min-height 0.7s;
+}
+
+.placedPiece {
+    min-width: 80%;
+    min-height: 80%;
+
+    @starting-style {
+        min-width: 0;
+        min-height: 0;
+    }
+}
+
+@keyframes flipAnimation {
+    0% {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+  
+.flippedPiece {
+    animation: flipAnimation 0.5s ease-in-out;
+}

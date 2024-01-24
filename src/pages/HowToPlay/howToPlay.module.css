@@ -1,0 +1,19 @@
+.howToPlayTitleContainer {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 32px;
+    width: 100%;
+    max-width: 768px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    width: 100%
+}
+
+.howToPlayContainer {
+    max-width: 768px;
+    text-align: left;
+}

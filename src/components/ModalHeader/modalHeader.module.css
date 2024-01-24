@@ -1,0 +1,11 @@
+.topSection {
+    position: relative;
+    margin-top: 24px;
+    width: 100%;
+}
+  
+.modalTitle {
+    color: black;
+    text-align: center;
+    margin-bottom: 0;
+}

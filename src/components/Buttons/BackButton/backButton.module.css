@@ -1,0 +1,6 @@
+.backButton {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}

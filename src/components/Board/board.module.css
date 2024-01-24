@@ -1,0 +1,10 @@
+.squareBoard {
+    background-color: black;
+    border: 8px solid black;
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+    gap: 2px;
+    width: 100%;
+    box-sizing: border-box;
+}

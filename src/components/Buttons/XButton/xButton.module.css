@@ -1,0 +1,9 @@
+.closeButton {
+    position: absolute;
+    color: black;
+    right: -36px;
+    transform: translateY(-75%);
+}
+.closeButton:hover {
+    opacity: 0.6;
+}

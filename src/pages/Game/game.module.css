@@ -1,0 +1,73 @@
+.gameContainer {
+    max-width: 450px;
+}
+
+.counterContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 24px;
+    grid-gap: 8px;
+    color: black;
+    max-width: 500px;
+    width: 100%;
+}
+
+.infoContainer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.id {
+    display: flex;
+    margin: 0;
+    font-size: 10px;
+    align-items: end;
+    text-align: left;
+
+    @media screen and (max-width: 576px) {
+        font-size: 8px;
+    }
+}
+
+.optionButtons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+}
+
+.pieceContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 8px;
+    margin: 24px;
+    color: black;
+    height: 80px;
+}
+
+.pieceContainer>p {
+    margin: 0;
+    text-align: center;
+}
+
+.currentTurn {
+    text-align: center;
+}
+
+.modalId {
+    color: black;
+    margin: 16px;
+    text-align: center;
+}
+
+.modalId>p {
+    margin: 0;
+}
+
+.topSection {
+    position: relative;
+    width: 100%;
+    margin-bottom: 24px;
+}

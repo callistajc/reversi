@@ -1,0 +1,16 @@
+.button {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    transition: color, background-color, border-color 0.25s;
+}
+.button:hover {
+    color: white;
+    background-color: black;
+    border-color: white;
+}

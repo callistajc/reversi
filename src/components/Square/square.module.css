@@ -1,0 +1,7 @@
+.square {
+    background-color: green;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+}
